@@ -5,9 +5,11 @@
 
 
 body {
-  margin: 0;
-  min-width: 320px;
+  margin: auto;
+  max-width: 1200px;
   min-height: 100vh;
+  padding:10px;
+  background-color: #f9fafc;
 }
 
 *{
