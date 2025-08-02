@@ -26,10 +26,10 @@ function Sidebar({ setQuery, query }) {
           <li
             key={item.id}
             className={
-              item.type.toLowerCase() === query.category
-                ? styles.selected
-                : null
-            }
+                        item.type.toLowerCase() === query.category
+                          ? styles.selected
+                          : null
+                      }
           >
             {item.type}
           </li>
